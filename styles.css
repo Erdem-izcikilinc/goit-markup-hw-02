@@ -1,7 +1,51 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+
+header {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e7e9fc;
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
+}
+.top-line-li {
+  color: #2E2F42;
+  list-style-type: none;
+
+
+}
+.top-line-li:hover {
+  color: #404BBF;
+
+}
+
+.hero-image {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  top: 72px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero-image-h1 {
+  text-decoration: none;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 5;
+    letter-spacing: 2%;
+}
+
+.hero-image .button {
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #4D5AE5;
+}
+.hero-image .button:hover {
+    background-color: #404BBF;
 }
