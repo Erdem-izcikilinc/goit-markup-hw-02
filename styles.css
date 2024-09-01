@@ -3,25 +3,22 @@ body {
   color: #2e2f42;
 }
 
+.logo {
+  font-family: "Raleway", sans-serif;
+}
+
 header {
-  background-color: #ffffff;
   border-style: solid;
   border-width: 1px;
   border-color: #e7e9fc;
 }
 
-.logo {
-  font-family: "Raleway", sans-serif;
-}
-.top-line-li {
-  color: #2E2F42;
+nav .ul {
   list-style-type: none;
-
-
 }
-.top-line-li:hover {
-  color: #404BBF;
 
+address .ul {
+  list-style-type: none;
 }
 
 .hero-image {
@@ -29,23 +26,126 @@ header {
   width: 1440px;
   height: 600px;
   top: 72px;
-  color: #ffffff;
   text-align: center;
 }
 
-.hero-image-h1 {
-  text-decoration: none;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 5;
-    letter-spacing: 2%;
+.hero-image .h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 3.75;
+  color: #ffffff;
 }
 
 .hero-image .button {
   cursor: pointer;
-  color: #FFFFFF;
-  background-color: #4D5AE5;
+  width: 169px;
+  height: 56px;
+  top: 428px;
+  left: 636px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #4d5ae5;
 }
+
 .hero-image .button:hover {
-    background-color: #404BBF;
+  background-color: #404bbf;
+}
+
+.section-1 .ul {
+  list-style-type: none;
+}
+
+.section-1 .h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+.section-1 .p {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+.section-2 {
+  background-color: #f4f4fd;
+}
+
+.section-2 .h2 {
+  width: 162px;
+  height: 40px;
+  top: 1136px;
+  left: 639px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.5;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.section-2 .ul {
+  list-style-type: none;
+}
+
+.section-2 .h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.section-2 .p {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.section-3 .ul {
+  list-style-type: none;
+}
+
+.section-3 .h2 {
+  width: 218px;
+  height: 40px;
+  top: 1868px;
+  left: 611px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.5;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.section-3 .h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+.section-3 .p {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+footer {
+  background-color: #2e2f42;
+}
+
+footer .p {
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
 }
