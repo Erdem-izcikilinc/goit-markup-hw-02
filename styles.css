@@ -138,7 +138,7 @@ address .ul .a:hover {
   height: 380px;
   top: 1248px;
   left: 156px;
-  border-radius: 0px, 0pxi 4px, 4px;
+  border-radius: 0px, 0px, 4px, 4px;
   padding: 0px, 0px, 32px, 0px;
 }
 
@@ -198,6 +198,13 @@ footer {
   width: 1440px;
   height: 312px;
   top: 2988px;
+}
+
+footer .foot {
+  width: 264px;
+  height: 122px;
+  top: 3088px;
+  left: 156px;
 }
 
 footer .p {
