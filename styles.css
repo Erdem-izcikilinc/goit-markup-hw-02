@@ -1,10 +1,19 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+}
+.logo-1 {
+  font-family: "Raleway", sans-serif;
+  color: #2e2f42;
+}
+.logo-2 {
+  font-family: "Raleway", sans-serif;
+  color: #f4f4fd;
 }
 
 header {
@@ -17,8 +26,36 @@ nav .ul {
   list-style-type: none;
 }
 
+nav .ul .a1 {
+  color: #2e2f42;
+}
+
+nav .ul .a1:hover {
+  color: #404bbf;
+}
+
+nav .ul .a1:active {
+  color: #404bbf;
+}
+
+nav .ul .a {
+  color: #2e2f42;
+}
+
+nav .ul .a:hover {
+  color: #404bbf;
+}
+
 address .ul {
   list-style-type: none;
+}
+
+address .ul .a {
+  color: #2e2f42;
+}
+
+address .ul .a:hover {
+  color: #404bbf;
 }
 
 .hero-image {
@@ -45,6 +82,10 @@ address .ul {
   border-radius: 4px;
   color: #ffffff;
   background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 1;
+  line-height: 24px;
+  letter-spacing: 4%;
 }
 
 .hero-image .button:hover {
@@ -56,6 +97,7 @@ address .ul {
 }
 
 .section-1 .h3 {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
@@ -75,6 +117,7 @@ address .ul {
 }
 
 .section-2 .h2 {
+  color: #2e2f42;
   width: 162px;
   height: 40px;
   top: 1136px;
@@ -90,7 +133,17 @@ address .ul {
   list-style-type: none;
 }
 
+.container {
+  width: 264px;
+  height: 380px;
+  top: 1248px;
+  left: 156px;
+  border-radius: 0px, 0pxi 4px, 4px;
+  padding: 0px, 0px, 32px, 0px;
+}
+
 .section-2 .h3 {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
@@ -112,6 +165,7 @@ address .ul {
 }
 
 .section-3 .h2 {
+  color: #2e2f42;
   width: 218px;
   height: 40px;
   top: 1868px;
@@ -124,6 +178,7 @@ address .ul {
 }
 
 .section-3 .h3 {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
