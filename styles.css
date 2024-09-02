@@ -6,14 +6,17 @@ body {
 .logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
+  text-decoration: none;
 }
 .logo-1 {
   font-family: "Raleway", sans-serif;
   color: #2e2f42;
+  text-decoration: none;
 }
 .logo-2 {
   font-family: "Raleway", sans-serif;
   color: #f4f4fd;
+  text-decoration: none;
 }
 
 header {
@@ -24,10 +27,12 @@ header {
 
 nav .ul {
   list-style-type: none;
+  
 }
 
 nav .ul .a1 {
   color: #2e2f42;
+  text-decoration: none;
 }
 
 nav .ul .a1:hover {
@@ -40,6 +45,7 @@ nav .ul .a1:active {
 
 nav .ul .a {
   color: #2e2f42;
+  text-decoration: none;
 }
 
 nav .ul .a:hover {
@@ -52,6 +58,7 @@ address .ul {
 
 address .ul .a {
   color: #2e2f42;
+  text-decoration: none;
 }
 
 address .ul .a:hover {
